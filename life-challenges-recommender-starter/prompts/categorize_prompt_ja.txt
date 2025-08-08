@@ -1,0 +1,32 @@
+以下の人生の課題を適切なカテゴリに分類し、JSON形式で出力してください。
+
+各課題には以下の情報を含めてください：
+- id: 一意の識別子
+- title: 課題のタイトル
+- category: カテゴリ（キャリア、健康、人間関係、学習、趣味、お金、その他）
+- difficulty: 難易度（1-5のスケール）
+- timeframe: 想定期間（日、週、月、年）
+- priority: 優先度（高、中、低）
+- description: 詳細説明
+- tags: 関連タグの配列
+
+出力形式例：
+```json
+{
+  "challenges": [
+    {
+      "id": "challenge_001",
+      "title": "プログラミングスキルの向上",
+      "category": "学習",
+      "difficulty": 3,
+      "timeframe": "6ヶ月",
+      "priority": "高",
+      "description": "React、TypeScript、Next.jsを習得してフロントエンド開発スキルを向上させる",
+      "tags": ["プログラミング", "フロントエンド", "JavaScript"]
+    }
+  ]
+}
+```
+
+分類したい課題：
+[ここに具体的な課題リストを入力してください]
